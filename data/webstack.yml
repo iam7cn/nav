@@ -13,23 +13,23 @@
   icon: fa-save
   links:
     - title: 百度网盘
-      logo: 
+      logo: images/logos/baidup.png
       url: https://pan.baidu.com
       description: 安全的个人云存储服务
     - title: 阿里云盘
-      logo: 
+      logo: images/logos/aliyun.png
       url: https://www.alipan.com/
       description: 阿里云盘是一款速度快、不打扰、够安全、易于分享的个人网盘，欢迎你来体验。
     - title: 夸克网盘
-      logo: 
+      logo: images/logos/quark.ico
       url: https://pan.quark.cn
       description: 夸克,更强大的网盘。  
     - title: OneDrive
-      logo: 
+      logo: images/logos/OneDrive.png
       url: https://onedrive.live.com/
       description: OneDrive 个人云存储空间
     - title: Google云盘
-      logo: 
+      logo: images/logos/gdrive.png
       url: https://drive.google.com/drive/
       description: 轻松安全地访问您的所有内容
 
