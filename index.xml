@@ -19,6 +19,8 @@
 &lt;li&gt;
 &lt;p&gt;FontAwesome图标：&lt;a href="https://origin.fontawesome.com/v6/search/"&gt;https://origin.fontawesome.com/v6/search&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>关于网站</title><link>https://nav.juzyz.com/about/</link><pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate><guid>https://nav.juzyz.com/about/</guid><description>&lt;h3 id="本站模板"&gt;本站模板&lt;/h3&gt;
+&lt;/ol&gt;</description></item><item><title>关于网站</title><link>https://nav.juzyz.com/about/</link><pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate><guid>https://nav.juzyz.com/about/</guid><description>&lt;h3 id="关于本站"&gt;关于本站&lt;/h3&gt;
+&lt;p&gt;本站是集站长自己使用的常用各行各业优秀网站导航。&lt;/p&gt;
+&lt;h3 id="关于模板"&gt;关于模板&lt;/h3&gt;
 &lt;p&gt;本网站由 &lt;a href="https://github.com/gohugoio/hugo"&gt;Hugo&lt;/a&gt; 驱动，使用 &lt;a href="https://github.com/oulh/hugo-webstack"&gt;hugo-webstack&lt;/a&gt; 主题，通过 Github &lt;a href="https://pages.github.com/"&gt;Pages&lt;/a&gt; 构建。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/oulh/hugo-webstack"&gt;hugo-webstack&lt;/a&gt; 是基于&lt;strong&gt;纯静态&lt;/strong&gt;的网址导航网站&lt;a href="https://github.com/WebStackPage/WebStackPage.github.io"&gt;webstack.cc&lt;/a&gt; 制作的&lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt;主题。&lt;/p&gt;</description></item><item><title>子页面一</title><link>https://nav.juzyz.com/sub1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nav.juzyz.com/sub1/</guid><description/></item><item><title>子页面二</title><link>https://nav.juzyz.com/sub2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nav.juzyz.com/sub2/</guid><description/></item></channel></rss>
