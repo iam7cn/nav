@@ -7,13 +7,22 @@ on:
       - main # Set a branch to deploy
   pull_request:
 
+# 权限配置（必须添加，否则部署会无权限）
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  
 jobs:
   deploy:
     runs-on: ubuntu-22.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true # 取消正在进行的旧任务，节省资源
     steps:
-      - uses: actions/checkout@v4
+    # 1. 拉取代码（含主题子模块 + 完整提交历史）
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           submodules: true # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
@@ -25,12 +34,16 @@ jobs:
           extended: true  # 还是扩展版，功能更全面一些
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --baseURL "https://nav.juzyz.com"
+        # run: hugo --minify
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          cname: nav.juzyz.com
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
           # publish_branch: gh-pages
