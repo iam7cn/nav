@@ -1,6 +1,6 @@
 ---
 title: "关于网站"
-date: 2026-4-9
+date: 2026-04-09
 draft: false
 ---
 
