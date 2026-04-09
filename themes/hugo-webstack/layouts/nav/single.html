@@ -26,7 +26,7 @@
             <div class="sidebar-menu-inner">
                 <header class="logo-env">
                     <!-- logo -->
-                    <div class="logo">
+                    <!-- <div class="logo">
                         <a href="../" class="logo-expanded">
                             <img src="../images/logo.png" height="40" alt="" />
                             &nbsp&nbsp{{ if .Params.title }}{{ .Params.title }}{{ else }}{{ .Site.Title }}{{ end }}
@@ -38,6 +38,22 @@
                     <div class="mobile-menu-toggle visible-xs">
                         <a href="#" data-toggle="mobile-menu">
                             <i class="fa fa-bars"></i>
+                        </a>
+                    </div> -->
+					<div class="logo">
+                        <a href="index.html" class="logo-expanded">
+                            <img src="./images/logo@2x.png" width="100%" alt="" />
+                        </a>
+                        <a href="index.html" class="logo-collapsed">
+                            <img src="./images/logo-collapsed@2x.png" width="40" alt="" />
+                        </a>
+                    </div>
+                    <div class="mobile-menu-toggle visible-xs">
+                        <a href="#" data-toggle="user-info-menu">
+                            <i class="lni lni-cog"></i>
+                        </a>
+                        <a href="#" data-toggle="mobile-menu">
+                            <i class="fa-bars"></i>
                         </a>
                     </div>
                 </header>
@@ -231,7 +247,7 @@
                 </div>
                 <div class="footer-inner">
                     <div class="footer-text">
-                        Copyright © {{ now.Format "2026"}} <a href=""><strong>{{ if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}{{ else }}author{{ end }}</strong>&nbsp;&nbsp;</a>              
+                        Copyright © {{ now.Format "2025"}} <a href=""><strong>{{ if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}{{ else }}author{{ end }}</strong>&nbsp;&nbsp;</a>              
                     </div>
                     <div class="footer-text">                       
                         Design by <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank" style="color: rgb(13, 109, 252); font-weight: bold;">Webstack</a>&nbsp;&middot;&nbsp;Themes by <a href="https://github.com/oulh/hugo-webstack" target="_blank" style="color: rgb(13, 109, 252); font-weight: bold;">hugo-webstack</a>
