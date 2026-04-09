@@ -9,7 +9,32 @@
       description: 一个专注于软件安装，网络相关教学的频道！
     
 
-     
+- taxonomy: 网络硬盘
+  icon: fa-save
+  links:
+    - title: 百度网盘
+      logo: 
+      url: https://pan.baidu.com
+      description: 安全的个人云存储服务
+    - title: 阿里云盘
+      logo: 
+      url: https://www.alipan.com/
+      description: 阿里云盘是一款速度快、不打扰、够安全、易于分享的个人网盘，欢迎你来体验。
+    - title: 夸克网盘
+      logo: 
+      url: https://pan.quark.cn
+      description: 夸克,更强大的网盘。  
+    - title: OneDrive
+      logo: 
+      url: https://onedrive.live.com/
+      description: OneDrive 个人云存储空间
+    - title: Google云盘
+      logo: 
+      url: https://drive.google.com/drive/
+      description: 轻松安全地访问您的所有内容
+
+
+      
 - taxonomy: 社区咨询
   icon: fa-regular fa-newspaper
   links: 
