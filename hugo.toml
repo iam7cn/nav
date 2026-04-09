@@ -32,7 +32,7 @@ copyright = "据资源"
 #桌面端右上角code按钮
 [params.github]
   enable = true #true显示 false隐藏
-  url = "https://nav.juzyz.com"
+  url = "https://github.com/iam7cn/"
   
 [permalinks]  
   404 = "/404.html"
