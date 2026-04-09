@@ -29,7 +29,7 @@
             <div class="sidebar-menu-inner">
                 <header class="logo-env">
                     <!-- logo -->
-                    <div class="logo">
+                    <!-- <div class="logo">
                         <a href="./" class="logo-expanded" >
                             <img src="./images/logo.png" height="40" alt="" />
                             &nbsp&nbsp{{ .Site.Title }}
@@ -41,6 +41,23 @@
                     <div class="mobile-menu-toggle visible-xs">
                         <a href="#" data-toggle="mobile-menu">
                             <i class="fa fa-bars"></i>
+                        </a>
+                    </div> -->
+                
+				<div class="logo">
+                        <a href="index.html" class="logo-expanded">
+                            <img src="./images/logo@2x.png" width="100%" alt="" />
+                        </a>
+                        <a href="index.html" class="logo-collapsed">
+                            <img src="./images/logo-collapsed@2x.png" width="40" alt="" />
+                        </a>
+                    </div>
+                    <div class="mobile-menu-toggle visible-xs">
+                        <a href="#" data-toggle="user-info-menu">
+                            <i class="lni lni-cog"></i>
+                        </a>
+                        <a href="#" data-toggle="mobile-menu">
+                            <i class="fa-bars"></i>
                         </a>
                     </div>
                 </header>
@@ -95,16 +112,17 @@
                 <a href="#" data-toggle="sidebar" ><i class="fa fa-bars"></i></a>
             </li>
             <li>
-              <div id="he-plugin-simple"></div>
+			<iframe style="margin-top: 30px" scrolling="no" src="https://widget.tianqiapi.com/?style=tm&skin=pitaya" frameborder="0" width="300" height="24" allowtransparency="true"></iframe>
+              <!-- <div id="he-plugin-simple"></div>
               <script>WIDGET = {CONFIG: {"modules": "12034","background": 5,"tmpColor": "aaa","tmpSize": 16,"cityColor": "aaa","citySize": 16,"aqiSize": 16,"weatherIconSize": 24,"alertIconSize": 18,"padding": "30px 10px 30px 10px","shadow": "1","language": "auto","borderRadius": 5,"fixed": "false","vertical": "middle","horizontal": "left","key": "a922adf8928b4ac1ae7a31ae7375e191"}}</script>
-              <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
+              <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script> -->
             </li> 
             <!-- 天气 end -->
       </ul>
         {{ if .Site.Params.Github.enable }}
         <ul class="user-info-menu right-links list-inline list-unstyled">
             <li class="hidden-sm hidden-xs">
-                <a href="{{ .Site.Params.Github.url }}" target="_blank" title="Git Repo"><i class="fa fa-code"></i></a>
+                <a href="{{ .Site.Params.Github.url }}" target="_blank" title="Git Repo"><i class="fa fa-github"></i></a>
             </li>
         </ul>
         {{ end }}
@@ -232,7 +250,7 @@
                 </div>
                 <div class="footer-inner">
                     <div class="footer-text">
-                        Copyright © {{ now.Format "2006"}} <a href=""><strong>{{ if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}{{ else }}author{{ end }}</strong>&nbsp;&nbsp;</a>              
+                        Copyright © {{ now.Format "2026"}} <a href=""><strong>{{ if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}{{ else }}author{{ end }}</strong>&nbsp;&nbsp;</a>              
                     </div>
                     <div class="footer-text">                       
                         Design by <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank" style="color: rgb(13, 109, 252); font-weight: bold;">Webstack</a>&nbsp;&middot;&nbsp;Themes by <a href="https://github.com/oulh/hugo-webstack" target="_blank" style="color: rgb(13, 109, 252); font-weight: bold;">hugo-webstack</a>

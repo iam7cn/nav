@@ -1,17 +1,17 @@
-baseURL = "https://hao.iam7.cn/nav"
+baseURL = "https://nav.juzyz.com"
 languageCode = "zh-CN"
-title = "小柒综合导航站"
+title = "聚资源导航站"
 theme = "hugo-webstack"
 
 #true:允许大写字母url路径，false:将url路径转换成小写
 disablePathToLower = true
 
 #页脚：作者名字
-copyright = "KJGX"
+copyright = "JUZYZ"
 
 #网站信息，不显示，仅供搜索引擎参考
 [params]
-  keywords = "网址导航,webstack,hugo,vpn,科学上网，免费节点，爱分享，科技共享，warp+ 连接不上，免费域名cloudflare，warp ip优选，hiddify"
+  keywords = "聚资源 - 聚合最优质的资源,导航,工具,下载,学习,影视,电脑,系统,福利,免费,juzyz.com"
   description = "Webstack Hugo版主题,网址导航"
 
 #是否开启搜索栏，true开启，false关闭
@@ -32,7 +32,7 @@ copyright = "KJGX"
 #桌面端右上角code按钮
 [params.github]
   enable = true #true显示 false隐藏
-  url = "https://hao.iam7.cn"
+  url = "https://nav.juzyz.com"
   
 [permalinks]  
   404 = "/404.html"
