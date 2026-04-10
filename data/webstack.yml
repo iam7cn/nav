@@ -9,15 +9,18 @@
       description: 一个专注于软件安装，网络相关教学的频道！
     
 
-- taxonomy: DIY
+- taxonomy: DIY页面
   icon: fa-user
-  list: 
-    - term: 机械设计
-      links: jixie
-    - term: 订阅1
-      links: sub1
-    - term: 订阅2
-      links: sub2
+  friend:
+    - title: 子页面一
+      url: sub1
+      description: 本站子页面1
+    - title: 子页面二
+      url: sub2
+      description: 本站子页面2
+    - title: 机械设计
+      url: jixie
+      description: webstack - 设计师网址导航
 
 
 - taxonomy: 网络硬盘
