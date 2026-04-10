@@ -11,41 +11,36 @@ data: #以下为导航链接内容
 
 - taxonomy: 3D 模型库
   icon: fa-save
-  links:
-    - title: GrabCAD
-       logo: images/logos/grabcad.png
-		url: https://grabcad.com
-		description: 全球最大机械设计社区，海量免费3D模型、图纸
+  links: null
+- title: GrabCAD
+  logo: images/logos/grabcad.png
+  url: https://grabcad.com
+  description: 全球最大机械设计社区，海量免费3D模型、图纸
+- title: MISUMI米思米
+  logo: images/logos/misumi.png
+  url: https://www.misumi.com.cn
+  description: FA自动化零件选型，3D模型直接导出CAD
+- title: TraceParts
+  logo: images/logos/traceparts.png
+  url: https://www.traceparts.com
+  description: 国际标准件库，支持主流CAD格式下载
+- title: 3DSOURCE零件库
+  logo: images/logos/3dsource.png
+  url: https://www.3dsource.cn
+  description: 国产国标零件库，标准件齐全
+- title: McMaster-Carr
+  logo: images/logos/mcmaster.png
+  url: https://www.mcmaster.com
+  description: 欧美标准件商城，美标零件与3D模型
+- title: Mechtool机械工具网
+  logo: images/logos/mechtool.png
+  url: https://www.mechtool.cn
+  description: 轴承/齿轮/弹簧/公差/材料在线计算
+- title: 3Dfindit
+  logo: images/logos/3dfindit.png
+  url: https://www.3dfindit.com
+  description: 3D模型搜索引擎，多厂商模型检索
 
-	- title: MISUMI米思米
-	   logo: images/logos/misumi.png
-        url: https://www.misumi.com.cn
-        description: FA自动化零件选型，3D模型直接导出CAD
-
-	- title: TraceParts
-       logo: images/logos/traceparts.png
-        url: https://www.traceparts.com
-        description: 国际标准件库，支持主流CAD格式下载
-
-    - title: 3DSOURCE零件库
-       logo: images/logos/3dsource.png
-        url: https://www.3dsource.cn
-        description: 国产国标零件库，标准件齐全
-
-    - title: McMaster-Carr
-       logo: images/logos/mcmaster.png
-        url: https://www.mcmaster.com
-        description: 欧美标准件商城，美标零件与3D模型
-
-    - title: Mechtool机械工具网
-       logo: images/logos/mechtool.png
-        url: https://www.mechtool.cn
-        description: 轴承/齿轮/弹簧/公差/材料在线计算
-		
-	- title: 3Dfindit
-	   logo: images/logos/3dfindit.png
-        url: https://www.3dfindit.com
-        description: 3D模型搜索引擎，多厂商模型检索	
 
 - taxonomy: 标准库
   icon: fa-save
