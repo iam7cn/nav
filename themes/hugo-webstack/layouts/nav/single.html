@@ -2,11 +2,8 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="google-adsense-account" content="ca-pub-7982305875180871">
-<meta name="google-site-verification" content="AMgK8six2NDyihUX6ZzzY3XQjfIN5TXKA97V54-4sVM" />
-<meta name="msvalidate.01" content="3FD62BA52B1FE6E207ADFFF29B984A90" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>{{ .Site.Title }}</title>
+<title>{{ .Site.Title }} - {{ .Params.title }}</title>
 <meta name="theme-color" content="#2C2E2F" />
 <meta name="keywords" content="{{ .Site.Params.keywords }}">
 <meta name="description" content="{{ .Site.Params.Description }}">
@@ -16,12 +13,12 @@
 <meta property="og:description" content="">
 <meta property="og:image" content="">
 <meta property="og:site_name" content="">
-<link rel="shortcut icon" href="./images/favicon.png">
-<link rel="apple-touch-icon" href="./images/app-ico.png">
-<link rel='stylesheet' id='font-awesome-css'  href='./css/font-awesome.min.css?ver=6.5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='bootstrap-css'  href='./css/bootstrap.css?ver=3.4.1' type='text/css' media='all' />
-<link rel='stylesheet' id='nav-css'  href='./css/nav.css?ver=2.0.0' type='text/css' media='all' />
-<script type='text/javascript' src='./js/jquery-1.11.1.min.js'></script>
+<link rel="shortcut icon" href="../images/favicon.png">
+<link rel="apple-touch-icon" href="../images/app-ico.png">
+<link rel='stylesheet' id='font-awesome-css'  href='../css/font-awesome.min.css?ver=6.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='../css/bootstrap.css?ver=3.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='nav-css'  href='../css/nav.css?ver=2.0.0' type='text/css' media='all' />
+<script type='text/javascript' src='../js/jquery-1.11.1.min.js'></script>
 </head>
 <body class="page-body {{ if .Site.Params.darkmode.enable }}black{{ else }}white{{ end }}">
     <div class="page-container">
@@ -29,26 +26,11 @@
             <div class="sidebar-menu-inner">
                 <header class="logo-env">
                     <!-- logo -->
-                    <!-- <div class="logo">
-                        <a href="./" class="logo-expanded" >
-                            <img src="./images/logo.png" height="40" alt="" />
-                            &nbsp&nbsp{{ .Site.Title }}
-                        </a>
-                        <a href="./" class="logo-collapsed">
-                            <img src="./images/logo.png" height="40" alt="">
-                        </a>
-                    </div>
-                    <div class="mobile-menu-toggle visible-xs">
-                        <a href="#" data-toggle="mobile-menu">
-                            <i class="fa fa-bars"></i>
-                        </a>
-                    </div> -->
-                
-				<div class="logo">
-                        <a href="index.html" class="logo-expanded">
+                    <div class="logo">
+                        <a href="../" class="logo-expanded">
                             <img src="./images/logo@2x.png" width="100%" alt="" />
                         </a>
-                        <a href="index.html" class="logo-collapsed">
+                        <a href="../" class="logo-collapsed">
                             <img src="./images/logo-collapsed@2x.png" width="40" alt="" />
                         </a>
                     </div>
@@ -62,7 +44,7 @@
                     </div>
                 </header>
                 <ul id="main-menu" class="main-menu">
-                    {{ range .Site.Data.webstack }}
+                    {{ range .Params.data }}
                     {{ if .list }}
                         <li>
                             <a>
@@ -87,16 +69,16 @@
                     {{ end }}                 
                     {{ end }}
                     <li class="submit-tag">
-                    {{ if .Site.Params.edit.enable }}
+                    {{ if .Params.edit.enable }}
                     <li>
-                        <a href="{{ .Site.Params.edit.url }}" target="_blank" rel="noopener noreferrer">
+                        <a href="{{ .Params.edit.url }}" target="_blank" rel="noopener noreferrer">
                             <i class="fa fa-edit fa-fw"></i>
                             <span class="tooltip-blue">在线编辑</span>
                         </a>
                     </li>
                     {{ end }}                    
                     <li>
-                        <a href="./about">
+                        <a href="../about">
                             <i class="fa fa-heart fa-fw"></i>
                             <span class="tooltip-blue">关于本站</span>
                         </a>
@@ -111,16 +93,10 @@
             <li class="hidden-xs">
                 <a href="#" data-toggle="sidebar" ><i class="fa fa-bars"></i></a>
             </li>
-			
-			
-			
-            
-                    <!-- 天气 -->
-					 <li>
-					 <iframe style="margin-top: 8px" scrolling="no" src="https://widget.tianqiapi.com/?style=tm&skin=pitaya" frameborder="0" width="300" height="20" allowtransparency="true"></iframe>
-              <!-- <div id="he-plugin-simple"></div>
+            <li>
+              <div id="he-plugin-simple"></div>
               <script>WIDGET = {CONFIG: {"modules": "12034","background": 5,"tmpColor": "aaa","tmpSize": 16,"cityColor": "aaa","citySize": 16,"aqiSize": 16,"weatherIconSize": 24,"alertIconSize": 18,"padding": "30px 10px 30px 10px","shadow": "1","language": "auto","borderRadius": 5,"fixed": "false","vertical": "middle","horizontal": "left","key": "a922adf8928b4ac1ae7a31ae7375e191"}}</script>
-              <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script> -->
+              <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
             </li> 
             <!-- 天气 end -->
       </ul>
@@ -133,9 +109,13 @@
         {{ end }}
     </div>
 </nav>
-{{ template "search.html" . }}
+{{ if .Params.search.enable }}
+    {{ template "search.html" . }}
+{{ else }}
+    <div class="no-search"></div>
+{{ end }}
 <div class="sites-list" style="margin-bottom: 8.5rem;">
-{{ range .Site.Data.webstack }}
+{{ range .Params.data }}
     {{ if .list }}
         {{ $subicon := .icon }}
         {{ range .list }}
@@ -148,7 +128,7 @@
                     <a href="{{ .url }}" target="_blank" class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='{{ .qrcode }}' width='128'>">
                         <div class="xe-comment-entry">
                             <div class="xe-user-img">
-                                <img class="img-circle lazy" src="./images/favicon.png" data-src="{{ .logo }}" onerror="javascript:this.src='./images/favicon.png'" width="40">
+                                <img class="img-circle lazy" src="../images/favicon.png" data-src="{{ .logo }}" onerror="javascript:this.src='../images/favicon.png'" width="40">
                             </div>
                             <div class="xe-comment">
                                 <div class="xe-user-name overflowClip_1">
@@ -161,11 +141,10 @@
                 </div>
                 {{ else }}
                 <div class="xe-card col-xs-6 col-sm-4 col-md-3 geticon">
-                    <a href="{{ .url }}" target="_blank" class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" 
-                    title="{{ .description }} {{ .url }}">
+                    <a href="{{ .url }}" target="_blank" class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="{{ .description }} {{ .url }}">
                         <div class="xe-comment-entry">
                             <div class="xe-user-img">
-                                <img class="img-circle lazy" src="./images/favicon.png" data-src="{{ .logo }}" onerror="javascript:this.src='./images/favicon.png'" width="40">
+                                <img class="img-circle lazy" src="../images/favicon.png" data-src="{{ .logo }}" onerror="javascript:this.src='../images/favicon.png'" width="40">
                             </div>
                             <div class="xe-comment">
                                 <div class="xe-user-name overflowClip_1">
@@ -192,7 +171,7 @@
                     <a href="{{ .url }}" target="_blank" class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='{{ .qrcode }}' width='128'>">
                         <div class="xe-comment-entry">
                             <div class="xe-user-img">
-                                <img class="img-circle lazy" src="./images/favicon.png" data-src="{{ .logo }}" onerror="javascript:this.src='./images/favicon.png'" width="40">
+                                <img class="img-circle lazy" src="../images/favicon.png" data-src="{{ .logo }}" onerror="javascript:this.src='../images/favicon.png'" width="40">
                             </div>
                             <div class="xe-comment">
                                 <div class="xe-user-name overflowClip_1">
@@ -205,11 +184,10 @@
                 </div>
                 {{ else }}
                 <div class="xe-card col-xs-6 col-sm-4 col-md-3 geticon">
-                    <a href="{{ .url }}" target="_blank" class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" 
-                    title="{{ .description }} {{ .url }}">
+                    <a href="{{ .url }}" target="_blank" class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom"  title="{{ .description }} {{ .url }}">
                         <div class="xe-comment-entry">
                             <div class="xe-user-img">
-                                <img class="img-circle lazy" src="./images/favicon.png" data-src="{{ .logo }}" onerror="javascript:this.src='./images/favicon.png'" width="40">
+                                <img class="img-circle lazy" src="../images/favicon.png" data-src="{{ .logo }}" onerror="javascript:this.src='../images/favicon.png'" width="40">
                             </div>
                             <div class="xe-comment">
                                 <div class="xe-user-name overflowClip_1">
@@ -248,10 +226,10 @@
                     </a>
                     <a href="javascript:" id="search-btn">
                         <i class="fa fa-search"></i>
-                    </a>
-                    <a href="javascript:" class="bright-dark" title="日/夜">
+                    </a>                   
+                    <a href="javascript:"class="bright-dark" title="日/夜">
                         <i class="fa {{ if .Site.Params.darkmode.enable }}fa-sun{{ else }}fa-moon{{ end }}"></i>
-                    </a>                  
+                    </a>
                 </div>
                 <div class="footer-inner">
                     <div class="footer-text">
@@ -279,13 +257,13 @@
         </ul>
         <p style="font-size:11px">键盘：Ctrl+F 开关，<strong>↑</strong> 和 <strong>↓</strong> 选择，Enter 访问</p>
     </div>
-    <script>var rootPath = './'</script>
+    <script>var rootPath = '../'</script>
     </div id="overlay"> 
 <script type="text/javascript">
     $(document).ready(function() {
         <!-- 黑暗和明亮模式 START -->
         $('footer.main-footer .foot-button .bright-dark').click(function(){   
-            var currentIcon = $(this).find('i').attr('class'); 
+            var currentIcon = $(this).find('i').attr('class');    
             if (currentIcon.includes('fa-moon')) {
                 $(this).find('i').removeClass('fa-moon').addClass('fa-sun');
                 $('body').removeClass('white').addClass('black');
@@ -304,7 +282,6 @@
             }
         })
         <!-- END 利用iowen API 获取网址icon START-->
-        
         $(document).on('click', '.has-sub', function(){
             var _this = $(this)
             if(!$(this).hasClass('expanded')) {
@@ -385,7 +362,6 @@
         return false;
     });
 
-    /*点击分类跳转*/
     var href = "";
     var pos = 0;
     $("a.smooth").click(function(e) {
@@ -403,12 +379,12 @@
         }, 500);
     });
 </script>
-<script type='text/javascript' src='./js/bootstrap.min.js?ver=3.4.1'></script>
-<script type='text/javascript' src='./js/TweenMax.min.js?ver=1.13.1'></script>
-<script type='text/javascript' src='./js/nav.js?ver=2.0.0'></script>
-<script type='text/javascript' src='./js/lazyload.min.js?ver=2.0.0'></script>
+<script type='text/javascript' src='../js/bootstrap.min.js?ver=3.4.1'></script>
+<script type='text/javascript' src='../js/TweenMax.min.js?ver=1.13.1'></script>
+<script type='text/javascript' src='../js/nav.js?ver=2.0.0'></script>
+<script type='text/javascript' src='../js/lazyload.min.js?ver=2.0.0'></script>
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 {{ if .Site.Params.pinyin.enable }}<script src="https://cdn.jsdelivr.net/npm/pinyin-pro@3.19.0/dist/index.js"></script>{{ end }}
-<script type='text/javascript' src='./js/local-search.js'></script>
+<script type='text/javascript' src='../js/local-search.js'></script>
 </body>
 </html>
