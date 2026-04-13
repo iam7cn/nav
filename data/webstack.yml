@@ -251,7 +251,28 @@
          logo: images/logos/pappk.ico
          url: https://portableappk.com/?lang=zh-cn&ref=https://juzyz.com
          description: PortableAppK – 原创高品质中文绿色便携软件                   
-
+    - term: 优秀论坛
+      links:
+       - title: 恩山论坛
+         logo: images/logos/right.jpg
+         url: http://www.right.com.cn/forum/?ref=https://juzyz.com
+         description: 恩山无线论坛、无线路由器爱好者的圣地。
+       - title: 隔壁网
+         logo: images/logos/gebi.png
+         url: http://www.gebi1.com/?ref=https://juzyz.com
+         description: 最大的NAS论坛。
+       - title: 吾爱破解
+         logo: images/logos/52pojie.png
+         url: https://www.52pojie.cn/?ref=https://juzyz.com
+         description: 吾爱破解论坛致力于软件安全与病毒分析的前沿，丰富的技术版块交相辉映，由无数热衷于软件加密解密及反病毒爱好者共同维护。
+       - title: IT天空
+         logo: images/logos/itsk.ico
+         url: https://www.itsk.com/?ref=https://juzyz.com
+         description: IT天空,万能驱动,优启通官网,it天空官网,万能驱动助理,驱动,驱动下载,驱动安装,u盘启动制作,u盘装系统,easysysprep,系统封装,高清壁纸,系统补丁下载,惠彩信息
+       - title: 
+         logo: images/logos/
+         url: 
+         description: 
       
 - taxonomy: 社区咨询
   icon: fa-regular fa-newspaper
