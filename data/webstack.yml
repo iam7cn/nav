@@ -1280,6 +1280,33 @@
           url: http://mustsee.earth/
           logo: images/logos/mustsee.png
           description: Discover the world's most beautiful places at every opened tab.
+          
+    - term: 网络测速
+      links:		 
+       - title: 星域测速
+         logo: images/logos/onethingpcs.png
+         url: http://speedtest.onethingpcs.com/?ref=https://juzyz.com
+         description: 星域测速/网心云出品       
+       - title: Speedtest
+         logo: images/logos/speedtest.png
+         url: https://www.speedtest.net/?ref=https://juzyz.com
+         description: Speedtest	
+       - title: Google Fiber(翻)
+         logo: images/logos/google.png
+         url: http://speedtest.googlefiber.net/?ref=https://juzyz.com
+         description: Google测速			 
+       - title: Netflix Fast(翻)
+         logo: images/logos/fast.png
+         url: https://fast.com/?ref=https://juzyz.com
+         description: Netflix Fast       
+       - title: Cloudflare测速
+         logo: images/logos/cloudflare.png
+         url: https://speed.cloudflare.com/?ref=https://juzyz.com
+         description: Cloudflare测速	
+       - title: CloudFlare优质IP
+         logo: images/logos/hostmonit.png
+         url: https://stock.hostmonit.com/CloudFlareYes/?ref=https://juzyz.com
+         description: CloudFlare优质IP测速(国内三大运营商)          
 
 
 - taxonomy: 学习教程
