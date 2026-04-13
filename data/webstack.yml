@@ -93,164 +93,164 @@
   list: 
     - term: 电脑系统
       links:
-      - title: NEXT, ITELLYOU
-        logo: images/logos/itellyou.png
-        url: https://next.itellyou.cn/?ref=https://juzyz.com
-        description: MSDN提供可靠的原版软件
-      - title: Hello Windows
-        logo: images/logos/hw.png
-        url: https://hellowindows.cn/?ref=https://juzyz.com
-        description: 精校 完整 极致 Windows系统下载仓储站
-      - title: 系统库
-        logo: images/logos/xitongku.png
-        url: https://www.xitongku.com/?ref=https://juzyz.com
-        description: 系统库是一个提供MSDN原版系统和安装教程的网站，附带各种原版office。
-      - title: TechBench
-        logo: https://tb.rg-adguard.net/favicon.ico
-        url: https://tb.rg-adguard.net/public.php?lang=zh-CN/?ref=https://juzyz.com
-        description: 是一个由 Windows 爱好者创建的非营利组织  
-      - title: UUP dump
-        logo: images/logos/uup.svg
-        url: https://uupdump.net/?lang=zh-cn
-        description: 轻松地从 Windows 更新服务器下载 UUP 文件
-      - title: 云萌数字权利激活工具
-        logo: images/logos/yunm.png
-        url: https://cmwtat.cloudmoe.com/cn.html?ref=https://juzyz.com
-        description: Windows激活工具
-      - title: KMS_VL_ALL
-        logo: images/logos/kmsa.png
-        url: https://github.com/abbodi1406/KMS_VL_ALL_AIO/?ref=https://juzyz.com
-        description: 可本地搭建KMS激活工具(荐)
-      - title: HEU_KMS_Activator
-        logo: images/logos/kmsa.png
-        url: https://github.com/zbezj/HEU_KMS_Activator/?ref=https://juzyz.com
-        description: 单文件；数字激活、KMS38激活、OEM激活、KMS激活；可激活Windows和Office。
-      - title: Microsoft官网
-        logo: images/logos/Mics.png
-        url: https://www.microsoft.com/zh-cn/software-download/?ref=https://juzyz.com
-        description: Microsoft官网下载Windows 11，user-agent需要改成手机模式
-      - title: Centos
-        logo: images/logos/centos.png
-        url: https://www.centos.org/?ref=https://juzyz.com
-        description: Centos官网地址                  
-      - title: Ubuntu
-        logo: images/logos/ubuntu.png
-        url: https://cn.ubuntu.com/?ref=https://juzyz.com
-        description: Ubuntu中文官网
-      - title: Debian
-        logo: images/logos/debian.png
-        url: https://www.debian.org/index.zh-cn.html?ref=https://juzyz.com
-        description: Debian官网地址
-      - title: 华为开源镜像站
-        logo: images/logos/huawei.png
-        url: https://mirrors.huaweicloud.com/home/?ref=https://juzyz.com
-        description: 提供主流开发语言组件、操作系统、常用工具和库等镜像。
-      - title: 腾讯软件源
-        logo: images/logos/cube-solid.svg
-        url: https://mirrors.cloud.tencent.com/?ref=https://juzyz.com
-        description: 腾讯云提供的镜像站
-      - title: 阿里镜像站
-        logo: images/logos/ali.png
-        url: https://developer.aliyun.com/mirror/?ref=https://juzyz.com
-        description: 提供极速全面稳定的系统镜像服务     
-      - title: 网易开源镜像站
-        logo: images/logos/wangyi.jpg
-        url: https://mirrors.163.com/index.zh-cn.html?ref=https://juzyz.com
-        description: 网易提供的镜像站
-      - title: 清华大学
-        logo: images/logos/qinghua.png
-        url: https://mirrors.tuna.tsinghua.edu.cn/?ref=https://juzyz.com
-        description: 致力于为国内和校内用户提供高质量的开源软件镜像、Linux 镜像源服务
-      - title: 中国科学技术大学
-        logo: images/logos/kexuejishudaxue.jpg
-        url: https://mirrors.ustc.edu.cn/?ref=https://juzyz.com
-        description: 提供各大主流 Linux 发行版的安装镜像
-      - title: 北京交通大学
-        logo: images/logos/beijingjiaotongdaxue.jpg
-        url: https://mirror.bjtu.edu.cn/?ref=https://juzyz.com
-        description: 北京交通大学自由与开源软件镜像站      
-      - title: 浙江大学
-        logo: images/logos/zhejiangdaxue.jpg
-        url: https://mirrors.zju.edu.cn/?ref=https://juzyz.com
-        description: 浙江大学开源软件镜像站      
-      - title: 兰州大学
-        logo: images/logos/lanzhoudaxue.jpg
-        url: https://mirror.lzu.edu.cn/?ref=https://juzyz.com
-        description: 提供主流 GNU/Linux 发行版以及开源、自由软件镜像                    
-      - title: 谷歌学术镜像
-        logo: images/logos/gugexueshujingxiang.png
-        url: https://ac.scmor.com/?ref=https://juzyz.com
-        description: 为科研工作者提供谷歌学术搜索的镜像网站导航,自动检测和更新可访问的谷歌镜像网址,并提供学术资源导航与论文免费下载通道
-      - title: KMS 地址列表
-        logo: images/logos/otp.png
-        url: https://www.coolhub.top/tech-articles/kms_list.html?ref=https://juzyz.com
-        description: KMS 地址列表,半小时更新一次.激活OFFICE/WINDOWS
+       - title: NEXT, ITELLYOU
+         logo: images/logos/itellyou.png
+         url: https://next.itellyou.cn/?ref=https://juzyz.com
+         description: MSDN提供可靠的原版软件
+       - title: Hello Windows
+         logo: images/logos/hw.png
+         url: https://hellowindows.cn/?ref=https://juzyz.com
+         description: 精校 完整 极致 Windows系统下载仓储站
+       - title: 系统库
+         logo: images/logos/xitongku.png
+         url: https://www.xitongku.com/?ref=https://juzyz.com
+         description: 系统库是一个提供MSDN原版系统和安装教程的网站，附带各种原版office。
+       - title: TechBench
+         logo: https://tb.rg-adguard.net/favicon.ico
+         url: https://tb.rg-adguard.net/public.php?lang=zh-CN/?ref=https://juzyz.com
+         description: 是一个由 Windows 爱好者创建的非营利组织  
+       - title: UUP dump
+         logo: images/logos/uup.svg
+         url: https://uupdump.net/?lang=zh-cn
+         description: 轻松地从 Windows 更新服务器下载 UUP 文件
+       - title: 云萌数字权利激活工具
+         logo: images/logos/yunm.png
+         url: https://cmwtat.cloudmoe.com/cn.html?ref=https://juzyz.com
+         description: Windows激活工具
+       - title: KMS_VL_ALL
+         logo: images/logos/kmsa.png
+         url: https://github.com/abbodi1406/KMS_VL_ALL_AIO/?ref=https://juzyz.com
+         description: 可本地搭建KMS激活工具(荐)
+       - title: HEU_KMS_Activator
+         logo: images/logos/kmsa.png
+         url: https://github.com/zbezj/HEU_KMS_Activator/?ref=https://juzyz.com
+         description: 单文件；数字激活、KMS38激活、OEM激活、KMS激活；可激活Windows和Office。
+       - title: Microsoft官网
+         logo: images/logos/Mics.png
+         url: https://www.microsoft.com/zh-cn/software-download/?ref=https://juzyz.com
+         description: Microsoft官网下载Windows 11，user-agent需要改成手机模式
+       - title: Centos
+         logo: images/logos/centos.png
+         url: https://www.centos.org/?ref=https://juzyz.com
+         description: Centos官网地址                  
+       - title: Ubuntu
+         logo: images/logos/ubuntu.png
+         url: https://cn.ubuntu.com/?ref=https://juzyz.com
+         description: Ubuntu中文官网
+       - title: Debian
+         logo: images/logos/debian.png
+         url: https://www.debian.org/index.zh-cn.html?ref=https://juzyz.com
+         description: Debian官网地址
+       - title: 华为开源镜像站
+         logo: images/logos/huawei.png
+         url: https://mirrors.huaweicloud.com/home/?ref=https://juzyz.com
+         description: 提供主流开发语言组件、操作系统、常用工具和库等镜像。
+       - title: 腾讯软件源
+         logo: images/logos/cube-solid.svg
+         url: https://mirrors.cloud.tencent.com/?ref=https://juzyz.com
+         description: 腾讯云提供的镜像站
+       - title: 阿里镜像站
+         logo: images/logos/ali.png
+         url: https://developer.aliyun.com/mirror/?ref=https://juzyz.com
+         description: 提供极速全面稳定的系统镜像服务     
+       - title: 网易开源镜像站
+         logo: images/logos/wangyi.jpg
+         url: https://mirrors.163.com/index.zh-cn.html?ref=https://juzyz.com
+         description: 网易提供的镜像站
+       - title: 清华大学
+         logo: images/logos/qinghua.png
+         url: https://mirrors.tuna.tsinghua.edu.cn/?ref=https://juzyz.com
+         description: 致力于为国内和校内用户提供高质量的开源软件镜像、Linux 镜像源服务
+       - title: 中国科学技术大学
+         logo: images/logos/kexuejishudaxue.jpg
+         url: https://mirrors.ustc.edu.cn/?ref=https://juzyz.com
+         description: 提供各大主流 Linux 发行版的安装镜像
+       - title: 北京交通大学
+         logo: images/logos/beijingjiaotongdaxue.jpg
+         url: https://mirror.bjtu.edu.cn/?ref=https://juzyz.com
+         description: 北京交通大学自由与开源软件镜像站      
+       - title: 浙江大学
+         logo: images/logos/zhejiangdaxue.jpg
+         url: https://mirrors.zju.edu.cn/?ref=https://juzyz.com
+         description: 浙江大学开源软件镜像站      
+       - title: 兰州大学
+         logo: images/logos/lanzhoudaxue.jpg
+         url: https://mirror.lzu.edu.cn/?ref=https://juzyz.com
+         description: 提供主流 GNU/Linux 发行版以及开源、自由软件镜像                    
+       - title: 谷歌学术镜像
+         logo: images/logos/gugexueshujingxiang.png
+         url: https://ac.scmor.com/?ref=https://juzyz.com
+         description: 为科研工作者提供谷歌学术搜索的镜像网站导航,自动检测和更新可访问的谷歌镜像网址,并提供学术资源导航与论文免费下载通道
+       - title: KMS 地址列表
+         logo: images/logos/otp.png
+         url: https://www.coolhub.top/tech-articles/kms_list.html?ref=https://juzyz.com
+         description: KMS 地址列表,半小时更新一次.激活OFFICE/WINDOWS
     - term: 电脑软件
       links:
-      - title: Chrome浏览器
-        logo: https://www.google.cn/chrome/static/images/chrome-logo.svg
-        url: https://www.google.cn/intl/zh-CN/chrome/?ref=https://juzyz.com
-        description: 由 Google 打造的浏览器
-      - title: Edge浏览器
-        logo: images/logos/edge.png
-        url: https://www.microsoft.com/zh-cn/edge/?ref=https://juzyz.com
-        description: Microsoft Edge 是一款快速而安全的浏览器，可帮助您保护数据，节省时间和金钱。                        
-      - title: Office Tool Plus
-        logo: images/logos/otp.png
-        url: https://otp.landian.vip/zh-cn/?ref=https://juzyz.com
-        description: 系Office Tool Plus 基于 Office 部署工具 (ODT) 打造，可以很轻松地部署 Office。                           
-      - title: Downloadly
-        logo: images/logos/dly.png
-        url: https://downloadlynet.ir/?ref=https://juzyz.com
-        description: 一个俄罗斯破解软件站。无法访问打开：https://downloadly.ir/
-      - title: 小众软件
-        logo: images/logos/appinn.png
-        url: https://faxian.appinn.com/?ref=https://juzyz.com
-        description: 在这里发现更多有趣的应用
-      - title: 果核剥壳
-        logo: https://www.ghxi.com/favicon.ico
-        url: https://www.ghxi.com/?ref=https://juzyz.com
-        description: 果核剥壳是一家综合科技站点，看新闻，分享破解软件、绿色软件，Windows系统。守住互联网最后的一片净土。
-      - title: 大眼仔旭
-        logo: images/logos/dayanzai.ico
-        url: http://www.dayanzai.me/?ref=https://juzyz.com
-        description: 专注视频剪辑、解压、录屏、思维导图等办公资源分享。
-      - title: MAC软件
-        logo: https://admin.rwev6.ml/wp-content/uploads/2020/11/macsofter.ico
-        url: https://www.macsofter.com/?ref=https://juzyz.com
-        description: Mac电报为网友提供苹果软件以及相关使用教程,iOS/iPadOS限免应用推荐以及相关iOS/iPadOS教程,并且为网友提供每日最新Apple新闻。
-      - title: 蓝点网
-        logo: images/logos/landianw.png
-        url: https://www.landiannews.com/?ref=https://juzyz.com
-        description: 给你感兴趣的内容
-      - title: 爱免费吧
-        logo: http://www.imf8.cn/zb_users/upload/2022/02/202202121644598514121498.png
-        url: http://www.imf8.cn/?ref=https://juzyz.com
-        description: 技术研究,精品软件分享,系统去广告规则分享.
-      - title: 分享迷
-        logo: https://www.fenxm.com/zb_users/theme/suiranx_air/image/favicon.ico
-        url: https://www.fenxm.com/?ref=https://juzyz.com
-        description: 分享迷致力于精选优质TV大屏软件、技术教程、电视资讯等内容，并关注电脑、手机等平台，推荐各类互联网好玩的事物！ 
-      - title: 下1个好软件
-        logo: images/logos/x1g.jpg
-        url: https://x1g.la/?ref=https://juzyz.com
-        description: 下1个好软件，给大家分享实用好玩有趣的安卓、Windows、iOS、macOS、Linux软件。                  
-      - title: TTime
-        logo: images/logos/tttime.ico
-        url: https://ttime.timerecord.cn/?ref=https://juzyz.com
-        description: 🚀 一款简洁、高效、高颜值的输入、截图、划词翻译软件                          
-      - title: 斗鱼PE生成器
-        logo: images/logos/winpe.png
-        url: https://winpemaker.ccpe.net/?ref=https://juzyz.com        
-        description: WinpeMaker（斗鱼PE生成器）——积木式构建 WinPE 神器                    
-      - title: 软媒魔方
-        logo: images/logos/mofang.ico
-        url: https://mofang.ruanmei.com/?ref=https://juzyz.com
-        description: 软媒魔方,软媒桌面,软媒时间,魔方电脑大师,魔方优化大师,Win7优化大师,Win8优化大师,软媒魔方6官网                         
-      - title: 便携软件
-        logo: images/logos/pappk.ico
-        url: https://portableappk.com/?lang=zh-cn&ref=https://juzyz.com
-        description: PortableAppK – 原创高品质中文绿色便携软件                   
+       - title: Chrome浏览器
+         logo: https://www.google.cn/chrome/static/images/chrome-logo.svg
+         url: https://www.google.cn/intl/zh-CN/chrome/?ref=https://juzyz.com
+         description: 由 Google 打造的浏览器
+       - title: Edge浏览器
+         logo: images/logos/edge.png
+         url: https://www.microsoft.com/zh-cn/edge/?ref=https://juzyz.com
+         description: Microsoft Edge 是一款快速而安全的浏览器，可帮助您保护数据，节省时间和金钱。                        
+       - title: Office Tool Plus
+         logo: images/logos/otp.png
+         url: https://otp.landian.vip/zh-cn/?ref=https://juzyz.com
+         description: 系Office Tool Plus 基于 Office 部署工具 (ODT) 打造，可以很轻松地部署 Office。                           
+       - title: Downloadly
+         logo: images/logos/dly.png
+         url: https://downloadlynet.ir/?ref=https://juzyz.com
+         description: 一个俄罗斯破解软件站。无法访问打开：https://downloadly.ir/
+       - title: 小众软件
+         logo: images/logos/appinn.png
+         url: https://faxian.appinn.com/?ref=https://juzyz.com
+         description: 在这里发现更多有趣的应用
+       - title: 果核剥壳
+         logo: https://www.ghxi.com/favicon.ico
+         url: https://www.ghxi.com/?ref=https://juzyz.com
+         description: 果核剥壳是一家综合科技站点，看新闻，分享破解软件、绿色软件，Windows系统。守住互联网最后的一片净土。
+       - title: 大眼仔旭
+         logo: images/logos/dayanzai.ico
+         url: http://www.dayanzai.me/?ref=https://juzyz.com
+         description: 专注视频剪辑、解压、录屏、思维导图等办公资源分享。
+       - title: MAC软件
+         logo: https://admin.rwev6.ml/wp-content/uploads/2020/11/macsofter.ico
+         url: https://www.macsofter.com/?ref=https://juzyz.com
+         description: Mac电报为网友提供苹果软件以及相关使用教程,iOS/iPadOS限免应用推荐以及相关iOS/iPadOS教程,并且为网友提供每日最新Apple新闻。
+       - title: 蓝点网
+         logo: images/logos/landianw.png
+         url: https://www.landiannews.com/?ref=https://juzyz.com
+         description: 给你感兴趣的内容
+       - title: 爱免费吧
+         logo: http://www.imf8.cn/zb_users/upload/2022/02/202202121644598514121498.png
+         url: http://www.imf8.cn/?ref=https://juzyz.com
+         description: 技术研究,精品软件分享,系统去广告规则分享.
+       - title: 分享迷
+         logo: https://www.fenxm.com/zb_users/theme/suiranx_air/image/favicon.ico
+         url: https://www.fenxm.com/?ref=https://juzyz.com
+         description: 分享迷致力于精选优质TV大屏软件、技术教程、电视资讯等内容，并关注电脑、手机等平台，推荐各类互联网好玩的事物！ 
+       - title: 下1个好软件
+         logo: images/logos/x1g.jpg
+         url: https://x1g.la/?ref=https://juzyz.com
+         description: 下1个好软件，给大家分享实用好玩有趣的安卓、Windows、iOS、macOS、Linux软件。                  
+       - title: TTime
+         logo: images/logos/tttime.ico
+         url: https://ttime.timerecord.cn/?ref=https://juzyz.com
+         description: 🚀 一款简洁、高效、高颜值的输入、截图、划词翻译软件                          
+       - title: 斗鱼PE生成器
+         logo: images/logos/winpe.png
+         url: https://winpemaker.ccpe.net/?ref=https://juzyz.com        
+         description: WinpeMaker（斗鱼PE生成器）——积木式构建 WinPE 神器                    
+       - title: 软媒魔方
+         logo: images/logos/mofang.ico
+         url: https://mofang.ruanmei.com/?ref=https://juzyz.com
+         description: 软媒魔方,软媒桌面,软媒时间,魔方电脑大师,魔方优化大师,Win7优化大师,Win8优化大师,软媒魔方6官网                         
+       - title: 便携软件
+         logo: images/logos/pappk.ico
+         url: https://portableappk.com/?lang=zh-cn&ref=https://juzyz.com
+         description: PortableAppK – 原创高品质中文绿色便携软件                   
 
       
 - taxonomy: 社区咨询
