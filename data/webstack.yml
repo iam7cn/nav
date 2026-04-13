@@ -272,7 +272,208 @@
        - title: 
          logo: images/logos/
          url: 
-         description: 
+         description:
+         
+- taxonomy: 在线影视
+  icon: fa-tv-retro
+  list: 
+    - term: 会员影视
+      links:
+       - title: 腾讯视频
+         logo: images/logos/vqq.png
+         url: https://v.qq.com/?ref=https://juzyz.com
+         description: 中国领先的在线视频媒体平台,海量高清视频在线观看。
+       - title: 爱奇艺
+         logo: images/logos/iqiyi.png
+         url: https://www.iqiyi.com/?ref=https://juzyz.com
+         description: 在线视频网站-海量正版高清视频在线观看。
+       - title: 优酷
+         logo: images/logos/youku.png
+         url: https://www.youku.com/?ref=https://juzyz.com
+         description: 享受品质观影体验。
+       - title: 芒果TV
+         logo: images/logos/maguo.png
+         url: https://www.mgtv.com/?ref=https://juzyz.com
+         description: 大家都在看的在线视频网站-热门综艺最新电影电视剧在线观看
+       - title: PPTV
+         logo: images/logos/pptv.png
+         url: https://www.pptv.com/?ref=https://juzyz.com
+         description: 高清影视在线观看
+       - title: 搜狐视频
+         logo: images/logos/souhu.png
+         url: https://tv.sohu.com/?ref=https://juzyz.com
+         description: 中国领先的综合视频网站,正版高清视频在线观看,原创视频上传,全网视频搜索
+       - title: 乐视视频
+         logo: images/logos/letv.png
+         url: http://www.le.com/?ref=https://juzyz.com
+         description: 专业的影视剧视频网站_高清视频在线观看
+       - title: 风行网
+         logo: images/logos/fxtv.png
+         url: http://www.fun.tv/?ref=https://juzyz.com
+         description: 提供免费电影、电视剧、综艺、动漫、体育等视频内容的在线观看和下载
+       - title: 南瓜电影
+         logo: images/logos/ngtv.png
+         url: https://www.vcinema.cn/?ref=https://juzyz.com
+         description: 只为“影视发烧友”而生，就要给你好看
+       - title: 欢喜首映
+         logo: images/logos/hxtv.png
+         url: https://www.huanxi.com/?ref=https://juzyz.com
+         description: 高清完整版电影在线观看
+       - title: MeiYouAd
+         logo: images/logos/
+         url: https://www.meiyouad.com/?ref=https://juzyz.com
+         description: MeiYouAd		 
+       - title: 布雷克VIP
+         logo: images/logos/blktv.png
+         url: https://www.breakvip.com/?ref=https://juzyz.com
+         description: 轻量级优质精选影院
+       - title: 咪咕视频
+         logo: images/logos/migu.png
+         url: https://www.migu.cn/video.html?ref=https://juzyz.com
+         description: 提供海量高清影视、综艺等内容，让您在休憩时刻，畅享追剧好时光。
+       - title: 1905电影网
+         logo: images/logos/m1905.png
+         url: https://vip.1905.com/?ref=https://juzyz.com
+         description: 电影电视剧—高清正版视频在线观看
+       - title: 360影视
+         logo: images/logos/loading.png
+         url: https://www.360kan.com/?ref=https://juzyz.com
+         description: 更新更全更受欢迎的影视网站 
+		 
+    - term: 综合影视
+      links:
+       - title: 片库网
+         logo: images/logos/pianku.ico
+         url: https://www.pianku.la/?ref=https://juzyz.com
+         description: 片库网为广大影迷朋友们提供最新最热门的迅雷电影下载。
+       - title: 好恐怖
+         logo: images/logos/haokb.ico
+         url: https://www.haokongbu1.com/?ref=https://juzyz.com
+         description: 好恐怖MP4电影下载网站。
+       - title: 中国高清网
+         logo: images/logos/HD.ico
+         url: http://gaoqing.la/?ref=https://juzyz.com
+         description: 中国高清网是下载了解高清电影的天堂！
+       - title: 电影港
+         logo: images/logos/dygang.ico
+         url: https://www.dygang.cc/?ref=https://juzyz.com
+         description: 电影港-专注于高清电影的下载服务。
+       - title: COKEMV影视
+         logo: images/logos/cokemv.png
+         url: https://cokemv.me/?ref=https://juzyz.com
+         description: 蓝光在线无广告-实时更新热播剧-最新蓝光电影-免费在线观看
+       - title: 电影盒子
+         logo: images/logos/dybox.ico
+         url: http://www.tv7box.com/?ref=https://juzyz.com
+         description: 最新电影,高清电影,免费电影,在线电影,电影排行,电影盒子
+       - title: 凌云影视
+         logo: images/logos/lyys8.ico
+         url: https://www.lingyun.in/?ref=https://juzyz.com
+         description: 全网最近好看的影视聚合下载
+       - title: 555电影
+         logo: images/logos/555.png
+         url: https://555dy.fun/?ref=https://juzyz.com
+         description: 最新Netflix新剧_韩国电影免费在线观看
+       - title: Auete影视
+         logo: images/logos/auete.ico
+         url: https://auete.com/?ref=https://juzyz.com
+         description: Auete影视为您提供蓝光超清热门电影,热门美剧热门韩剧最近热播电影电视剧推荐,精品动漫,好看的综艺节目在线观看百度云免费下载!
+       - title: 樱花动漫
+         logo: images/logos/yhcd.ico
+         url: http://www.yinghuacd.com/?ref=https://juzyz.com
+         description: 樱花动漫拥有上万集高清晰画质的在线动漫，观看完全免费、无须注册、高速播放、更新及时的专业在线樱花动漫站，我们致力为所有动漫迷们提供最好看的动漫。
+        
+    - term: 美剧在线
+      links:
+       - title: 人人影视
+         logo: images/logos/dribbble.png
+         url: http://www.yyetss.com/?ref=https://juzyz.com
+         description: 提供海量免费的最新美剧。       
+       - title: 美剧天堂
+         logo: images/logos/behance.png
+         url: https://www.aimeijutt.com/?ref=https://juzyz.com
+         description: 提供高清美剧在线观看。	 
+       - title: 美剧侠
+         logo: images/logos/uicn.png
+         url: http://www.meijuxia.vip/?ref=https://juzyz.com
+         description: 提供海量免费的美剧。
+       - title: 外剧网
+         logo: images/logos/zcool.png
+         url: https://www.waiju.cc/?ref=https://juzyz.com
+         description: 外剧专场，美剧、韩剧、日剧、泰剧等	 
+       - title: 91美剧网
+         logo: images/logos/pinterest.png
+         url: https://91mjw.com/?ref=https://juzyz.com
+         description: 提供海量免费的【美剧】
+       - title: 爱看美剧
+         logo: images/logos/huaban.png
+         url: https://www.akmeiju.com/?ref=https://juzyz.com
+         description: 爱看美剧网-爱美剧者的美剧天堂-好看的美剧在线观看
+
+    - term: 纪录片在线
+      links:	 
+       - title: bilibili纪录片频道
+         logo: https://static.hdslb.com/images/favicon.ico
+         url: https://www.bilibili.com/documentary/?ref=https://juzyz.com
+         description: bilibili是国内知名的视频弹幕网站
+       - title: 腾讯纪录片
+         logo: images/logos/vqq.png
+         url: https://v.qq.com/channel/doco/?ref=https://juzyz.com
+         description: 纪录片频道 - 腾讯视频
+       - title: CCTV-9 纪录片
+         logo: https://tv.cctv.com/favicon.ico
+         url: http://tv.cctv.com/cctv9/?ref=https://juzyz.com
+         description: CCTV-9纪录频道节目官网
+       - title: 纪录片之家
+         logo: images/logos/favicon.png
+         url: https://www.05jl.com/?ref=https://juzyz.com
+         description: 分享纪录片，分享美剧，留住这些让我们感动的电视节目。纪录片之家提供最新、最全、最经典的纪录片和美剧下载。
+       - title: MVGroup
+         logo: images/logos/favicon.png
+         url: https://forums.mvgroup.org/?ref=https://juzyz.com
+         description: 英文站，纪录片资源极为丰富
+       - title: 阿里云盘资源
+         logo: images/logos/favicon.png
+         url: https://www.aliyundrive.com/s/B6S6n7d58Ye/?ref=https://juzyz.com
+         description: 4T纪录片合集(400多部)
+       - title: 阿里云盘资源
+         logo: images/logos/favicon.png
+         url: https://www.aliyundrive.com/s/xNYDZWraANA/?ref=https://juzyz.com
+         description: 十个T纪录片资源合集
+    - term: 影视软件
+      links:		 
+       - title: MeowTV Box
+         logo: images/logos/logo.ico
+         url: https://www.yydsys.top/box/?ref=https://juzyz.com
+         description: MeowTV Box下载+免费接口汇总-免费、无广告的TV盒子，聚合直播和点播一体式,海量蓝光超清线路，支持Android、Pad、TV、BOX		 
+       - title: ZY Player 资源播放器
+         logo: images/logos/zyplayer.png
+         url: http://zyplayer.fun/?ref=https://juzyz.com
+         description: ZY Player 资源播放器, 简洁无广告, 免费高颜值.
+       - title: 小苹果
+         logo: images/logos/xpg.png
+         url: http://app.pingcaca.com/share/?ref=https://juzyz.com
+         description: 影视爱好者聚集地		 
+       - title: 资源猫
+         logo: images/logos/favicon.png
+         url: https://xswl.lanzoui.com/b017aleih?ref=https://juzyz.com
+         description: 资源猫是一个提供各类资源搜索和影视播放的手机影音工具。		 
+       - title: MVGroup
+         logo: images/logos/favicon.png
+         url: https://forums.mvgroup.org/?ref=https://juzyz.com
+         description: 英文站，纪录片资源极为丰富	
+       - title: 龙门影视
+         logo: images/logos/longm.png
+         url: https://www.looo.top/?ref=https://juzyz.com
+         description: 一款聚合全网影视的APP，电脑、TV、安卓三端客户端	
+       - title: 
+         logo: images/logos/
+         url: 
+         description: 	
+       - title: 
+         logo: images/logos/
+         url: 
+         description:          
       
 - taxonomy: 社区咨询
   icon: fa-regular fa-newspaper
