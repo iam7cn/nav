@@ -88,6 +88,102 @@
       url: https://drive.google.com/drive/
       description: 轻松安全地访问您的所有内容
       
+- taxonomy: 电脑系统
+  icon: fa-windows
+  links:
+    - title: NEXT, ITELLYOU
+      logo: images/logos/itellyou.png
+      url: https://next.itellyou.cn/?ref=https://juzyz.com
+      description: MSDN提供可靠的原版软件
+    - title: Hello Windows
+      logo: images/logos/hw.png
+      url: https://hellowindows.cn/?ref=https://juzyz.com
+      description: 精校 完整 极致 Windows系统下载仓储站
+    - title: 系统库
+      logo: images/logos/xitongku.png
+      url: https://www.xitongku.com/?ref=https://juzyz.com
+      description: 系统库是一个提供MSDN原版系统和安装教程的网站，附带各种原版office。
+    - title: TechBench
+      logo: https://tb.rg-adguard.net/favicon.ico
+      url: https://tb.rg-adguard.net/public.php?lang=zh-CN/?ref=https://juzyz.com
+      description: 是一个由 Windows 爱好者创建的非营利组织  
+    - title: UUP dump
+      logo: images/logos/uup.svg
+      url: https://uupdump.net/?lang=zh-cn
+      description: 轻松地从 Windows 更新服务器下载 UUP 文件
+    - title: 云萌数字权利激活工具
+      logo: images/logos/yunm.png
+      url: https://cmwtat.cloudmoe.com/cn.html?ref=https://juzyz.com
+      description: Windows激活工具
+    - title: KMS_VL_ALL
+      logo: images/logos/kmsa.png
+      url: https://github.com/abbodi1406/KMS_VL_ALL_AIO/?ref=https://juzyz.com
+      description: 可本地搭建KMS激活工具(荐)
+    - title: HEU_KMS_Activator
+      logo: images/logos/kmsa.png
+      url: https://github.com/zbezj/HEU_KMS_Activator/?ref=https://juzyz.com
+      description: 单文件；数字激活、KMS38激活、OEM激活、KMS激活；可激活Windows和Office。
+    - title: Microsoft官网
+      logo: images/logos/Mics.png
+      url: https://www.microsoft.com/zh-cn/software-download/?ref=https://juzyz.com
+      description: Microsoft官网下载Windows 11，user-agent需要改成手机模式
+    - title: Centos
+      logo: images/logos/centos.png
+      url: https://www.centos.org/?ref=https://juzyz.com
+      description: Centos官网地址                  
+    - title: Ubuntu
+      logo: images/logos/ubuntu.png
+      url: https://cn.ubuntu.com/?ref=https://juzyz.com
+      description: Ubuntu中文官网
+    - title: Debian
+      logo: images/logos/debian.png
+      url: https://www.debian.org/index.zh-cn.html?ref=https://juzyz.com
+      description: Debian官网地址
+    - title: 华为开源镜像站
+      logo: images/logos/huawei.png
+      url: https://mirrors.huaweicloud.com/home/?ref=https://juzyz.com
+      description: 提供主流开发语言组件、操作系统、常用工具和库等镜像。
+    - title: 腾讯软件源
+      logo: images/logos/cube-solid.svg
+      url: https://mirrors.cloud.tencent.com/?ref=https://juzyz.com
+      description: 腾讯云提供的镜像站
+    - title: 阿里镜像站
+      logo: images/logos/ali.png
+      url: https://developer.aliyun.com/mirror/?ref=https://juzyz.com
+      description: 提供极速全面稳定的系统镜像服务     
+    - title: 网易开源镜像站
+      logo: images/logos/wangyi.jpg
+      url: https://mirrors.163.com/index.zh-cn.html?ref=https://juzyz.com
+      description: 网易提供的镜像站
+    - title: 清华大学
+      logo: images/logos/qinghua.png
+      url: https://mirrors.tuna.tsinghua.edu.cn/?ref=https://juzyz.com
+      description: 致力于为国内和校内用户提供高质量的开源软件镜像、Linux 镜像源服务
+    - title: 中国科学技术大学
+      logo: images/logos/kexuejishudaxue.jpg
+      url: https://mirrors.ustc.edu.cn/?ref=https://juzyz.com
+      description: 提供各大主流 Linux 发行版的安装镜像
+    - title: 北京交通大学
+      logo: images/logos/beijingjiaotongdaxue.jpg
+      url: https://mirror.bjtu.edu.cn/?ref=https://juzyz.com
+      description: 北京交通大学自由与开源软件镜像站      
+    - title: 浙江大学
+      logo: images/logos/zhejiangdaxue.jpg
+      url: https://mirrors.zju.edu.cn/?ref=https://juzyz.com
+      description: 浙江大学开源软件镜像站      
+    - title: 兰州大学
+      logo: images/logos/lanzhoudaxue.jpg
+      url: https://mirror.lzu.edu.cn/?ref=https://juzyz.com
+      description: 提供主流 GNU/Linux 发行版以及开源、自由软件镜像                  
+    - title: 谷歌学术镜像
+      logo: images/logos/gugexueshujingxiang.png
+      url: https://ac.scmor.com/?ref=https://juzyz.com
+      description: 为科研工作者提供谷歌学术搜索的镜像网站导航,自动检测和更新可访问的谷歌镜像网址,并提供学术资源导航与论文免费下载通道
+    - title: KMS 地址列表
+      logo: images/logos/otp.png
+      url: https://www.coolhub.top/tech-articles/kms_list.html?ref=https://juzyz.com
+      description: KMS 地址列表,半小时更新一次.激活OFFICE/WINDOWS
+      
 - taxonomy: 社区咨询
   icon: fa-regular fa-newspaper
   links: 
