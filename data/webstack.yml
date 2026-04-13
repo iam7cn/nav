@@ -89,7 +89,7 @@
       description: 轻松安全地访问您的所有内容
       
 - taxonomy: 电脑系统
-  icon: fa-windows
+  icon: fa-desktop-alt
   links:
     - title: NEXT, ITELLYOU
       logo: images/logos/itellyou.png
