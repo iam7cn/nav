@@ -275,7 +275,7 @@
          description:
          
 - taxonomy: 在线影视
-  icon: far fa-tv-retro
+  icon: fa-solid fa-film
   list: 
     - term: 会员影视
       links:
