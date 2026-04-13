@@ -338,8 +338,8 @@
        - title: 360影视
          logo: images/logos/loading.png
          url: https://www.360kan.com/?ref=https://juzyz.com
-         description: 更新更全更受欢迎的影视网站 
-		 
+         description: 更新更全更受欢迎的影视网站
+         
     - term: 综合影视
       links:
        - title: 片库网
@@ -440,6 +440,7 @@
          logo: images/logos/favicon.png
          url: https://www.aliyundrive.com/s/xNYDZWraANA/?ref=https://juzyz.com
          description: 十个T纪录片资源合集
+         
     - term: 影视软件
       links:		 
        - title: MeowTV Box
