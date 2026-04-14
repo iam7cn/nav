@@ -18,3 +18,14 @@ draft: false
 本网站由 [Hugo](https://github.com/gohugoio/hugo) 驱动，使用 [hugo-webstack](https://github.com/oulh/hugo-webstack) 主题，通过 Github [Pages](https://pages.github.com/) 构建。
 
 [hugo-webstack](https://github.com/oulh/hugo-webstack) 是基于**纯静态**的网址导航网站[webstack.cc](https://github.com/WebStackPage/WebStackPage.github.io) 制作的[Hugo](https://gohugo.io/)主题。
+
+
+### 收藏
+
+觉得很不错？那就按住Ctrl+D键组合，把本网站加入你的浏览器收藏夹吧！
+
+## [https://nav.juzyz.com](https://nav.juzyz.com/)
+
+### 通过邮件联系我们
+
+有任何问题也欢迎通过邮件于我们取得联系: me#juzyz.com(#修改成@)
