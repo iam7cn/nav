@@ -283,7 +283,23 @@ function AutoScroll(obj,hight){
                     </div>
                     <div class="footer-text">                       
                         Design by <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank" style="color: rgb(13, 109, 252); font-weight: bold;">Webstack</a>&nbsp;&middot;&nbsp;Themes by <a href="https://github.com/oulh/hugo-webstack" target="_blank" style="color: rgb(13, 109, 252); font-weight: bold;">hugo-webstack</a>
+						<!-- 一言 -->
+                                
+                                    <script>
+                                        fetch('https://v1.hitokoto.cn')
+                                            .then(response => response.json())
+                                            .then(data => {
+                                                const hitokoto = document.getElementById('hitokoto_text')
+                                                hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
+                                                hitokoto.innerText = data.hitokoto
+                                            })
+                                            .catch(console.error)
+                                    </script>
+                                    <div id="hitokoto"><a href="#" target="_blank" id="hitokoto_text">我爱你，洛千婷</a></div>
+                                
+                                <!-- 一言 end -->
                     </div>
+					
                     <div class="footer-text">
                         <span id="busuanzi_container_page_pv"  style="font-size:11px"> &nbsp;&nbsp; <i class="fa far fa-eye"></i> <span id="busuanzi_value_page_pv" style="color: rgb(13, 109, 252); font-weight: bold;"></span></span>                   
                     </div>
