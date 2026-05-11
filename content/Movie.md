@@ -13,37 +13,37 @@ data:
   - taxonomy: 影视资源
     icon: fa-save
     links:
-	  - title: 樱花资源
+      - title: 樱花资源
         logo: images/logos/jsoncn.png
         url: https://yhzy.cc/
         description: 
-		
-	  - title: 百度资源
+
+      - title: 百度资源
         logo: images/logos/jsoncn.png
         url: https://bdzy2.com/
         description: 
-	  
-	  - title: 闪电资源
+
+      - title: 闪电资源
         logo: images/logos/jsoncn.png
         url: https://shandianzy.com/
         description:
-		
-	  - title: 量子资源
+
+      - title: 量子资源
         logo: images/logos/jsoncn.png
         url: https://lzizy.net/
         description:
-		
-	  - title: OK资源
+
+      - title: OK资源
         logo: images/logos/jsoncn.png
         url: https://www.okzyw.net/
-        description:		
+        description:        
 
-	  - title: 360资源
+      - title: 360资源
         logo: images/logos/jsoncn.png
         url: https://360zyzz.com/
         description:
 
-	  - title: 最大资源
+      - title: 最大资源
         logo: images/logos/jsoncn.png
         url: https://zuidazy.co/
         description:
