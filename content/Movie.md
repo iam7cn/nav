@@ -179,90 +179,161 @@ data:
       - title: 杏吧资源
         logo: images/logos/jsoncn.png
         url: https://sex8zy1.com
-        description: 国外线路，无明显广告。
+        description: 杏吧X站资源采集站，每日都有更新内容。视频播放地址采用国外线路，暂无水印广告，请自行测试播放速度。
 
-      - title: 优优资源
+      - title: 优优资源（另一个）
         logo: images/logos/jsoncn.png
         url: https://yytv.cc
-        description: Cloudflare CDN线路。
+        description: 优优资源（另一个）X站资源，使用 Cloudflare CDN 作为播放源地址，广告未知，请自行测试播放速度和广告。
 
       - title: 天美资源
         logo: images/logos/jsoncn.png
         url: https://tmzyz.com
-        description: 收费资源站。
+        description: 天美库X站资源，使用国内IP作为播放源地址，无广告，此资源站为收费资源站，请自行测试播放速度，每日更新。
 
       - title: TG资源站
         logo: images/logos/jsoncn.png
         url: https://tgzyz.pp.ua
-        description: Telegram频道跳转资源。
+        description: TG X站资源，跳转到 Telegram 频道，不是传统 m3u8 流媒体播放。
 
       - title: 香蕉资源
         logo: images/logos/jsoncn.png
-        url: https://shturl.cc/6YfTSYbY2VLG6al9f
-        description: Cloudflare播放线路。
+        url: http://www.xiangjiaozyw.com
+        description: 香蕉X站资源，使用 Cloudflare 作为播放源地址，有水印广告。
 
       - title: 番茄资源
         logo: images/logos/jsoncn.png
         url: https://fqzy.me
-        description: 美国CDN线路。
+        description: 番茄X站资源，使用美国CDN作为播放源地址，有水印广告和片头广告。
 
       - title: 黑料资源
         logo: images/logos/jsoncn.png
         url: https://heiliaozy.com
-        description: 国外CDN线路。
+        description: 黑料资源X站资源，使用国外CDN作为播放源地址，有水印广告。
 
       - title: 黄色仓库
         logo: images/logos/jsoncn.png
         url: https://hsckzy001.com
-        description: 国外IP线路。
+        description: 黄色仓库X站资源，使用国外IP作为播放源地址，有水印广告。
 
       - title: 小鸡资源
         logo: images/logos/jsoncn.png
         url: https://xiaojizy.live
-        description: 秒拖秒播，资源丰富。
+        description: 小鸡视频资源采集站，秒拖秒播，无弹窗，每日更新100+资源。
 
       - title: 细胞资源
         logo: images/logos/jsoncn.png
         url: https://xibaozyw.com
-        description: 国外线路。
+        description: 细胞X站资源，国外线路，视频有水印广告。
+
+      - title: 大地资源
+        logo: images/logos/jsoncn.png
+        url: https://dadizy11.com
+        description: 大地X站资源，使用美国CDN作为播放源地址，片尾有插播广告。
+
+      - title: 草批资源
+        logo: images/logos/jsoncn.png
+        url: https://www.988caobi.com
+        description: 草批X资源，使用美国CDN作为播放源地址，暂无明显水印广告。
+
+      - title: 奶香香资源
+        logo: images/logos/jsoncn.png
+        url: https://www.nxxzyuan.vip
+        description: 奶香香X站资源，有片头片中片尾广告，并提供小说采集接口。
+
+      - title: 桃花资源
+        logo: images/logos/jsoncn.png
+        url: https://thzy1.me
+        description: 桃花X站资源，使用国外IP作为播放源地址，有水印广告。
+
+      - title: 丝袜资源网
+        logo: images/logos/jsoncn.png
+        url: https://www.siwazyw.tv
+        description: 丝袜X站资源，使用美国CDN作为播放源地址，有水印广告。
 
       - title: CK伦理资源
         logo: images/logos/jsoncn.png
         url: https://www.ckzy1.com
-        description: 香港IP线路。
+        description: CK伦理资源，使用香港IP作为播放源地址，无明显水印广告。
+
+      - title: 大奶子资源
+        logo: images/logos/jsoncn.png
+        url: https://danaizizy.com
+        description: 大奶子X站资源，使用美国CDN作为播放源地址，有片头广告。
+
+      - title: 搜AV资源
+        logo: images/logos/jsoncn.png
+        url: https://souavzyw.com
+        description: 搜AV X站资源，使用国外CDN作为播放源地址，有水印广告。
+
+      - title: 奥斯卡资源
+        logo: images/logos/jsoncn.png
+        url: https://aosikazy1.com
+        description: 奥斯卡X站资源，使用美国CDN作为播放源地址，有片头广告。
+
+      - title: jkun资源
+        logo: images/logos/jsoncn.png
+        url: https://jkunzy.com
+        description: jkun X站资源，使用美国CDN作为播放源地址，有小说API接口。
+
+      - title: 滴滴资源网
+        logo: images/logos/jsoncn.png
+        url: https://didizy.com
+        description: 滴滴X站资源，播放源地址采用美国CDN，视频配有水印广告。
 
       - title: 豆豆资源
         logo: images/logos/jsoncn.png
         url: https://doudouzy.com
-        description: 美国CDN线路。
+        description: 豆豆X站资源，播放源地址为美国CDN，暂无明显广告。
+
+      - title: 精品X资源
+        logo: images/logos/jsoncn.png
+        url: https://jingpinx.com
+        description: 精品X站资源，播放源地址为美国IP，视频有水印广告。
 
       - title: 鲨鱼资源网
         logo: images/logos/jsoncn.png
         url: http://shayuzy5.com
-        description: 美国CDN线路。
+        description: 鲨鱼X站资源采集，播放源地址为美国CDN，视频有水印广告。
 
       - title: 辣椒资源
         logo: images/logos/jsoncn.png
         url: http://lajiaozy.com
-        description: 支持小说、图片采集。
+        description: 辣椒X站资源，提供H小说与图片采集接口。
+
+      - title: 森林资源
+        logo: images/logos/jsoncn.png
+        url: http://senlinzy2.com
+        description: 森林X站资源，支持H小说与H图片采集。
 
       - title: 155资源
         logo: images/logos/jsoncn.png
         url: http://155zy2.com
-        description: 美国CDN线路。
+        description: 155X站资源，播放源地址为美国CDN。
 
       - title: 色猫资源
         logo: images/logos/jsoncn.png
         url: http://semaozy1.com
-        description: 美国CDN线路。
+        description: 色猫X站资源，播放源地址为美国CDN。
 
       - title: 乐播资源
         logo: images/logos/jsoncn.png
         url: http://lebozy5.com
-        description: 美国CDN线路。
+        description: 乐播X站资源，播放源地址为美国CDN，有水印广告。
+
+      - title: 玉兔资源
+        logo: images/logos/jsoncn.png
+        url: https://yutuzy.com
+        description: 玉兔X站资源，播放源地址为美国CDN，有水印广告。
+
+      - title: 老色P资源
+        logo: images/logos/jsoncn.png
+        url: https://laosebizy.com
+        description: 老色P X站资源，播放源地址为美国CDN，有水印广告。
 
       - title: 番号资源
         logo: images/logos/jsoncn.png
         url: http://fhzy1.com
-        description: 支持小说API接口。
+        description: 番号X站资源，播放源地址为美国CDN，有小说采集API。
+
 ---
