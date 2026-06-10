@@ -7,6 +7,34 @@
       logo:  
       url: https://hao.iam7.cn/
       description: 常用软件搜索
+    - title: 吾爱破解论坛      
+      logo:  
+      url: https://www.52pojie.cn/
+      description: 论坛致力于软件安全与病毒分析的前沿，丰富的技术版块交相辉映，由无数热衷于软件加密解密及反病毒爱好者共同维护，实用性无需多说！
+    - title: 软仓      
+      logo:  
+      url: http://www.ruancang.net/
+      description: 覆盖了400多款专业软件，含Office/WPS、Adobe全家桶、CAD，3D建模、影视动画、数据分析、机械设计
+    - title: 极简系统      
+      logo:  
+      url: https://www.sysmini.com/
+      description: 网站覆盖了从win7到win11的镜像文件，甚至还有激活工具，懂的都懂，无需多说！
+    - title: 不死鸟      
+      logo:  
+      url: https://b.oe.do/
+      description: 作为一个资源整合类的网站，在我心里堪称封顶的存在，干净无广且内容丰富，包含影视资源搜索，磁力资源，安卓软件，windows软件等；日常用足够富余。
+    - title: crxsoso      
+      logo:  
+      url: https://www.crxsoso.com/
+      description: 一个汇集了数十万插件的宝藏网站！覆盖AI，效率办公，网页提速，阅读，工作，装机等，基本所有插件全覆盖！就像网页介绍的那般，“一个牛X的扩展和应用商店”
+    - title: 磁力导航     
+      logo:  
+      url: https://cilisousuodaohang.litxdh.com/
+      description: 内含数十个磁力链，爱学习的小伙伴有福啦！！
+    - title: 超级接口生成器！      
+      logo:  
+      url: https://superexcuse.com/
+      description: 点开链接，即刻享受永久假期！       
     - title: visa虚拟信用卡
       qrcode: 
       logo:  images/logos/visa.png
